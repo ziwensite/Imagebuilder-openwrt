@@ -22,6 +22,8 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # 虚拟机插件
 #PACKAGES="$PACKAGES qemu-ga"
 
+# 商店
+PACKAGES="$PACKAGES taskd luci-lib-xterm luci-lib-taskd luci-app-store"
 
 # 常用软件服务
 
