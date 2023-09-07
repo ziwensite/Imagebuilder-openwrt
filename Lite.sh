@@ -50,6 +50,8 @@ PACKAGES="$PACKAGES luci-app-adguardhome"
 
 # 文件助手
 PACKAGES="$PACKAGES luci-app-fileassistant"
+PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
+
 # 硬盘休眠
 #PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 
