@@ -17,7 +17,5 @@ sed -i "s/CONFIG_ISO_IMAGES=y/# CONFIG_ISO_IMAGES is not set/" .config
 # Not generate VMDK images
 sed -i "s/CONFIG_VMDK_IMAGES=y/# CONFIG_VHDX_IMAGES is not set/" .config
 
-# 更改主机名
-sed -i "s/hostname='ImmortalWrt'/hostname='YLOS'/g" ./package/base-files/files/bin/config_generate
 
 
