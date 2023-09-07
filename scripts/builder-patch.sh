@@ -19,6 +19,5 @@ sed -i "s/CONFIG_VMDK_IMAGES=y/# CONFIG_VHDX_IMAGES is not set/" .config
 
 # 更改主机名
 sed -i "s/hostname='ImmortalWrt'/hostname='YLOS'/g" ./package/base-files/files/bin/config_generate
-echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
-# Modify default IP
-sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
+
+
