@@ -15,7 +15,7 @@ sed -i "s/install \$(BUILD_PACKAGES)/install \$(BUILD_PACKAGES) --force-overwrit
 sed -i "s/CONFIG_ISO_IMAGES=y/# CONFIG_ISO_IMAGES is not set/" .config
 
 # Not generate VMDK images
-sed -i "s/CONFIG_VMDK_IMAGES=y/# CONFIG_VHDX_IMAGES is not set/" .config
+sed -i "s/CONFIG_VMDK_IMAGES=y/# CONFIG_VMDK_IMAGES is not set/" .config
 
 
 
