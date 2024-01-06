@@ -44,7 +44,7 @@ PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 # AdguardHome DNS
 PACKAGES="$PACKAGES luci-app-adguardhome"
 # 广告屏蔽大师
-#PACKAGES="$PACKAGES luci-i18n-adbyby-plus-zh-cn	"
+PACKAGES="$PACKAGES luci-i18n-adbyby-plus-zh-cn	"
 
 # 常用的网络存储组件
 
