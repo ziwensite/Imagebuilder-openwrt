@@ -63,7 +63,7 @@ PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
 # Wireguard
 #PACKAGES="$PACKAGES luci-i18n-wireguard-zh-cn"
 # 宽带监控 Nlbwmon
-PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-filetransfer-zh-cn"
 
