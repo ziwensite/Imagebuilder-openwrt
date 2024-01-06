@@ -15,6 +15,7 @@ on:
         options:
           - '22.03.5'
           - '23.05.0-rc3' 
+          - '23.05.2'
       release: 
         description: 将编译出的镜像上传到 Release
         required: false
